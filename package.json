@@ -1,0 +1,23 @@
+{
+  "name": "medifinder",
+  "version": "1.0.0",
+  "description": "MedNear – Medicine Availability Finder",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild analytics.js --bundle --format=esm --outfile=analytics.bundle.js",
+    "dev": "npx serve ."
+  },
+  "keywords": [
+    "medicine",
+    "pharmacy",
+    "healthcare"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^1.1.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
